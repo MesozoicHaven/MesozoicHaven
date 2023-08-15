@@ -1,0 +1,62 @@
+body {
+    font-size: medium;
+    line-height: 1.25;
+}
+
+.logo {
+    margin: 10px 20px 10px 0px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page-content {
+    width: 1000px;
+    margin: auto;
+}
+
+.biopic {
+    height: 200px;
+    float: left;
+}
+
+.biofig {
+    max-width: 250px;
+    float: left;
+    text-align: center;
+}
+
+.fright {
+    max-width: 250px;
+    float: right;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 15px;
+}
+.fright img {
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position:relative;
+    bottom: 0px;
+    background-color: #0D6EFD;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #00ddff;
+}
