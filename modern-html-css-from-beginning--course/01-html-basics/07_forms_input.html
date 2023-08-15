@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Do not forget the description!">
+  <meta name="keywords" content="KEYWORDS, GO HERE">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="🛑 Dont Forget To Change Me!">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="main.css">
+  <title>🛑 DocName</title>
+</head>
+<body>
+<form action="process.php">
+  <div>
+    <label for="name">First Name</label><br>
+    <input type="text" id="name" name="name">
+  </div>
+  <div>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="john@doe.com">
+  </div>
+  <div>
+    <label for="message">message </label><br>
+    <textarea name="message" id="message" cols="25" rows="4">Message here.</textarea>
+  </div>
+  <div>
+    <label for="gender">gender</label>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female" selected>Female</option>
+    </select>
+  </div>
+  <div>
+    <label for="Age">Age</label>
+    <input type="number" name="Age" id="age">
+  </div>
+  <div>
+    <label for="birthdate">birthdate</label>
+    <input type="date" name="birthdate" id="birthdate">
+  </div>
+  <div>
+    <label for="membership">membership</label>
+    <input type="radio" name="membership" id="membership" value="simple"> Simple
+    <input type="radio" name="membership" id="membership" value="super" checked> Super
+  </div>
+  <div>
+    <label for="membership">membership</label>
+    <input type="checkbox" name="likes" id="likes" value="super"> Super
+    <input type="checkbox" name="likes" id="likes" value="simple" checked> Simple
+    <input type="checkbox" name="likes" id="likes" value="insane"> Insane
+  </div>
+  <input type="submit" value="Go">
+  <button type="reset">Reset</button>
+</form>
+</body>
+</html>
